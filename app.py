@@ -147,44 +147,48 @@ if selected == 'About':
 elif selected == 'Experience':
 
     with st.container():
-        
+
         # ---- Experience ----
         with st.container():
             st.html('<div style="text-align: center"> Explore my </div>')
             st.html('<div style="text-align: center"> <h2> Experience </h2> </div>')
-        
+
         st.markdown('#')
-        
+
         with st.container():
             st.html('<div style="text-align: left"> Data Scientist at Trellix </div>')
             st.html('<div style="text-align: left"> 06/2023 --> present </div>')
-        
+
         st.markdown('#')
-        
+
         with st.container():
-            st.html('<div style="text-align: left"> Data Science Intern at Trellix </div>')
+            st.html(
+                '<div style="text-align: left"> Data Science Intern at Trellix </div>')
             st.html('<div style="text-align: left"> 03/2023 --> 06/2023 </div>')
 
         st.markdown('#')
 
         with st.container():
-            st.html('<div style="text-align: left"> Software Development Engineer Intern at Trellix </div>')
+            st.html(
+                '<div style="text-align: left"> Software Development Engineer Intern at Trellix </div>')
             st.html('<div style="text-align: left"> 01/2023 --> 03/2023 </div>')
 
         st.markdown('#')
 
         with st.container():
-            st.html('<div style="text-align: left"> Computational Linguist at PanLingua </div>')
+            st.html(
+                '<div style="text-align: left"> Computational Linguist at PanLingua </div>')
             st.html('<div style="text-align: left"> 05/2021 --> 08/2021 </div>')
 
         st.markdown('#')
 
 elif selected == 'Projects':
-    
+
     with st.container():
-        
-        col1, col2, col3 = st.columns([1, 2, 1], vertical_alignment='center', gap='large')
-        
+
+        col1, col2, col3 = st.columns(
+            [1, 2, 1], vertical_alignment='center', gap='large')
+
         with col2:
             with st.container():
                 st.image(site_under_maintenance, use_column_width=True)
