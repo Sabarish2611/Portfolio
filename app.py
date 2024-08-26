@@ -1,10 +1,8 @@
 # ---- Importing Required Packages ----
 
-import json
 from PIL import Image
 import streamlit as st
 from pathlib import Path
-import requests
 from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
 
